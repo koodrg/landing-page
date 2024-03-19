@@ -138,6 +138,8 @@ button{
   display: grid;
 }
 
+
+
 .main{
   overflow: hidden; /*For animation*/
 }
@@ -390,7 +392,8 @@ button{
 
 /*=============== CATEGORY ===============*/
 .category__container{
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
   gap: 1rem 2rem;
 }
 
@@ -835,7 +838,7 @@ button{
   }
 
   .category__container{
-    grid-template-columns: repeat(3, 200px);
+    grid-template-columns: repeat(2, 250px);
     justify-content: center;
   }
 
@@ -935,7 +938,7 @@ button{
   }
 
   .category__container{
-    column-gap: 8rem;
+    column-gap: 6rem;
   }
   .category__img{
     width: 200px;
